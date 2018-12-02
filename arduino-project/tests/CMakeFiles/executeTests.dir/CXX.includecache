@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jp/repo/robobox-02-bras-articule/arduino-project/src/helpers/squareRoot.cpp
+math.h
+-
+
+/home/jp/repo/robobox-02-bras-articule/arduino-project/tests/basic-test.cpp
+gtest/gtest.h
+-
+../src/helpers/squareRoot.cpp
+/home/jp/repo/robobox-02-bras-articule/arduino-project/src/helpers/squareRoot.cpp
+
